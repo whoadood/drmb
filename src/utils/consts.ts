@@ -6,10 +6,6 @@ export const title = gradient.pastel.multiline(
   figlet.textSync("Dont Read Me Bro")
 );
 
-export function makeTitle(title: string) {
-  return gradient.pastel.multiline(figlet.textSync(title));
-}
-
 export function makeBadges(projectInfo: ProjectInfo) {
   const account = projectInfo.account.split(" ").join("%20");
   const project = projectInfo.project.split(" ").join("%20");

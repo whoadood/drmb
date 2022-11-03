@@ -1,5 +1,5 @@
 import { ProjectInfo } from "../types";
-import { makeBadges, makeLicense, makeCoffee, makeTitle } from "./consts";
+import { makeBadges, makeLicense, makeCoffee } from "./consts";
 import fs from "fs";
 import { fileURLToPath } from "url";
 import path from "path";
@@ -23,7 +23,7 @@ export async function createFileContent(
     );
     logger.success("content created");
 
-    return `${makeTitle(projectInfo.project)}<br />
+    return `# ${projectInfo.project}<br />
 				
 ${badges}
 <br /><br />
