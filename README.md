@@ -1,17 +1,17 @@
-# drmb<br />
-				
+# Dont Read Me Bro<br />
+
 [![GitHub Stars](https://img.shields.io/github/stars/whoadood/drmb.svg)](https://github.com/whoadood/drmb/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/whoadood/drmb.svg)](https://github.com/whoadood/drmb/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/whoadood/drmb) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://github.com/whoadood/drmb)
 <br /><br />
 simple cli for generating project readme files
 
-  ---
-  
-  ## Buy me a coffee
+---
 
-  Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
-  
-  <a href="https://www.buymeacoffee.com/whoadood" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-  
+## Buy me a coffee
+
+Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
+
+<a href="https://www.buymeacoffee.com/whoadood" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
  <!-- #<Project Title> -->
 
 <!-- makeBadges here -->
@@ -50,10 +50,8 @@ Once the dependencies are installed, you can run `npm start` to start the applic
 
 <!-- makeLicense here -->
 
-
 ## License
 
 > You can check out the full license [here](https://github.com/whoadood/drmb/LICENSE)
 
 This project is licensed under the terms of the **MIT** license.
-
