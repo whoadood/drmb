@@ -24,14 +24,14 @@ export async function createFileContent(
     logger.success("content created");
 
     return `
-	# ${projectInfo.project}
+# ${projectInfo.project}
 				
-	${badges}
-	${projectInfo.description}
-	${coffee}
-	${template}
-	${license}
-	`;
+${badges}
+${projectInfo.description}
+${coffee}
+${template}
+${license}
+`;
   } catch (err) {
     logger.error((err as Error).message);
     process.exit(1);
