@@ -1,15 +1,18 @@
-    # slicewars
 
-    [![GitHub Stars](https://img.shields.io/github/stars/whoadood/slicewars.svg)](https://github.com/whoadood/slicewars/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/whoadood/slicewars.svg)](https://github.com/whoadood/slicewars/issues) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/whoadood/slicewars) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://slicewars.vercel.app)
-    test description to see if this works
+	# slicewars
+				
+	[![GitHub Stars](https://img.shields.io/github/stars/whoadood/slicewars.svg)](https://github.com/whoadood/slicewars/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/whoadood/slicewars.svg)](https://github.com/whoadood/slicewars/issues) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/whoadood/slicewars) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://slicewars.vercel.app)
+	test description to see if this works
+	
+  ---
+  
+  ## Buy me a coffee
 
----
-
-## Buy me a coffee
-
-Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
-
-<a href="https://www.buymeacoffee.com/whoadood" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+  Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
+  
+  <a href="https://www.buymeacoffee.com/whoadood" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+  
+	 <!-- #<Project Title> -->
 
 <!-- makeBadges here -->
 
@@ -47,8 +50,11 @@ Once the dependencies are installed, you can run `npm start` to start the applic
 
 <!-- makeLicense here -->
 
+	
 ## License
 
 > You can check out the full license [here](https://github.com/whoadood/slicewars/LICENSE)
 
 This project is licensed under the terms of the **MIT** license.
+
+	
