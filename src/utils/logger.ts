@@ -2,7 +2,7 @@ import chalk from "chalk";
 
 export const logger = {
   info(msg: string) {
-    console.log(chalk.cyan(`${chalk.bold("info:")} ${msg}`));
+    console.log(chalk.cyan(msg));
   },
   warn(msg: string) {
     console.log(chalk.yellow(`${chalk.bold("warn:")} ${msg}`));

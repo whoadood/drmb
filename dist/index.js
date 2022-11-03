@@ -4,6 +4,7 @@ import chalk from 'chalk';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
 import path from 'path';
+import inquirer from 'inquirer';
 
 const title = gradient.pastel.multiline(figlet.textSync("Dont Read Me Bro"));
 function makeBadges(projectInfo) {
@@ -32,7 +33,7 @@ function makeCoffee(projectInfo) {
 
 const logger = {
     info(msg) {
-        console.log(chalk.cyan(`${chalk.bold("info:")} ${msg}`));
+        console.log(chalk.cyan(msg));
     },
     warn(msg) {
         console.log(chalk.yellow(`${chalk.bold("warn:")} ${msg}`));
@@ -75,16 +76,51 @@ ${license}
     }
 }
 
+async function promptForProjectInfo() {
+    const answers = await inquirer.prompt([
+        {
+            type: "input",
+            name: "account",
+            message: chalk.cyan("enter your github username"),
+        },
+        {
+            type: "input",
+            name: "project",
+            message: chalk.cyan("enter this project name"),
+        },
+        {
+            type: "input",
+            name: "url",
+            message: chalk.cyan("enter this project url"),
+        },
+        {
+            type: "input",
+            name: "description",
+            message: chalk.cyan("enter a description for this project"),
+        },
+        {
+            type: "input",
+            name: "license",
+            message: chalk.cyan("enter the license for this project"),
+        },
+    ]);
+    return {
+        projectInfo: {
+            account: answers.account,
+            project: answers.project,
+            url: answers.url,
+            description: answers.description,
+        },
+        license: answers.license,
+    };
+}
+
 async function cli() {
     console.log(title);
     logger.info(`Easily generate a README.md beautiful for your project
   `);
-    const content = await createFileContent({
-        project: "slicewars",
-        account: "whoadood",
-        description: "test description to see if this works",
-        url: "slicewars.vercel.app",
-    }, "MIT");
+    const { projectInfo, license } = await promptForProjectInfo();
+    const content = await createFileContent(projectInfo, license);
     await createFile(content);
     process.exit(0);
 }
