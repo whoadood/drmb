@@ -59,15 +59,15 @@ async function createFileContent(projectInfo, lcns) {
         const coffee = makeCoffee(projectInfo);
         const template = await fs.readFileSync(path.resolve(decodeURI(fileURLToPath(import.meta.url)), "../../src/templates/igorantun.md"), "utf8");
         logger.success("content created");
-        return `
-	# ${projectInfo.project}
+        return `# ${projectInfo.project}<br />
 				
-	${badges}
-	${projectInfo.description}
-	${coffee}
-	${template}
-	${license}
-	`;
+${badges}
+<br />
+${projectInfo.description}
+${coffee}
+${template}
+${license}
+`;
     }
     catch (err) {
         logger.error(err.message);
