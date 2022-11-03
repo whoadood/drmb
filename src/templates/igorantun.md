@@ -1,5 +1,7 @@
  <!-- #<Project Title> -->
 
+<!-- Badges will not work in private repos -->
+
 <!-- makeBadges here -->
 
 <!-- description here -->
