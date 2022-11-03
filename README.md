@@ -2,7 +2,7 @@
 				
 [![GitHub Stars](https://img.shields.io/github/stars/whoadood/drmb.svg)](https://github.com/whoadood/drmb/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/whoadood/drmb.svg)](https://github.com/whoadood/drmb/issues) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/whoadood/drmb) [![Live Demo](https://img.shields.io/badge/drmb.svg)](https://github.com/whoadood/drmb)
 <br /><br />
-simple cli for generating project readme files
+simple cli to generate project readme
 
   ---
   
