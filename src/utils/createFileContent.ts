@@ -26,7 +26,7 @@ export async function createFileContent(
     return `# ${projectInfo.project}<br />
 				
 ${badges}
-<br />
+<br /><br />
 ${projectInfo.description}
 ${coffee}
 ${template}

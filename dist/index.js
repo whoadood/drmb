@@ -62,7 +62,7 @@ async function createFileContent(projectInfo, lcns) {
         return `# ${projectInfo.project}<br />
 				
 ${badges}
-<br />
+<br /><br />
 ${projectInfo.description}
 ${coffee}
 ${template}
