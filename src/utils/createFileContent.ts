@@ -23,10 +23,10 @@ export async function createFileContent(
     );
     logger.success("content created");
 
-    return `
-# ${projectInfo.project}
+    return `# ${projectInfo.project}
 				
 ${badges}
+
 ${projectInfo.description}
 ${coffee}
 ${template}
