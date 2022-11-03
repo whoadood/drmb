@@ -1,8 +1,8 @@
-# dont read me bro<br />
+# drmb<br />
 				
-[![GitHub Stars](https://img.shields.io/github/stars/toadstool/dont read me bro.svg)](https://github.com/toadstool/dont read me bro/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/toadstool/dont read me bro.svg)](https://github.com/toadstool/dont read me bro/issues) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/toadstool/dont read me bro) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://github.com/whoadood/drmb)
+[![GitHub Stars](https://img.shields.io/github/stars/whoadood/drmb.svg)](https://github.com/whoadood/drmb/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/whoadood/drmb.svg)](https://github.com/whoadood/drmb/issues) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/whoadood/drmb) [![Live Demo](https://img.shields.io/badge/drmb.svg)](https://github.com/whoadood/drmb)
 <br /><br />
-cli to generate a project readme
+simple cli for generating project readme files
 
   ---
   
@@ -10,7 +10,7 @@ cli to generate a project readme
 
   Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
   
-  <a href="https://www.buymeacoffee.com/toadstool" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+  <a href="https://www.buymeacoffee.com/whoadood" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
   
  <!-- #<Project Title> -->
 
@@ -53,7 +53,7 @@ Once the dependencies are installed, you can run `npm start` to start the applic
 
 ## License
 
-> You can check out the full license [here](https://github.com/toadstool/dont read me bro/LICENSE)
+> You can check out the full license [here](https://github.com/whoadood/drmb/LICENSE)
 
-This project is licensed under the terms of the **TIM** license.
+This project is licensed under the terms of the **MIT** license.
 
