@@ -7,6 +7,9 @@ import path from 'path';
 import inquirer from 'inquirer';
 
 const title = gradient.pastel.multiline(figlet.textSync("Dont Read Me Bro"));
+function makeTitle(title) {
+    return gradient.pastel.multiline(figlet.textSync(title));
+}
 function makeBadges(projectInfo) {
     const account = projectInfo.account.split(" ").join("%20");
     const project = projectInfo.project.split(" ").join("%20");
@@ -60,9 +63,9 @@ async function createFileContent(projectInfo, lcns) {
         const badges = makeBadges(projectInfo);
         const license = makeLicense(projectInfo, lcns);
         const coffee = makeCoffee(projectInfo);
-        const template = await fs.readFileSync(path.resolve(decodeURI(fileURLToPath(import.meta.url)), "../../src/templates/igorantun.md"), "utf8");
+        const template = fs.readFileSync(path.resolve(decodeURI(fileURLToPath(import.meta.url)), "../../src/templates/igorantun.md"), "utf8");
         logger.success("content created");
-        return `# ${projectInfo.project}<br />
+        return `${makeTitle(projectInfo.project)}<br />
 				
 ${badges}
 <br /><br />

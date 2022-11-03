@@ -1,5 +1,5 @@
 import { ProjectInfo } from "../types";
-import { makeBadges, makeLicense, makeCoffee } from "./consts";
+import { makeBadges, makeLicense, makeCoffee, makeTitle } from "./consts";
 import fs from "fs";
 import { fileURLToPath } from "url";
 import path from "path";
@@ -14,7 +14,7 @@ export async function createFileContent(
     const badges = makeBadges(projectInfo);
     const license = makeLicense(projectInfo, lcns);
     const coffee = makeCoffee(projectInfo);
-    const template = await fs.readFileSync(
+    const template = fs.readFileSync(
       path.resolve(
         decodeURI(fileURLToPath(import.meta.url)),
         "../../src/templates/igorantun.md"
@@ -23,7 +23,7 @@ export async function createFileContent(
     );
     logger.success("content created");
 
-    return `# ${projectInfo.project}<br />
+    return `${makeTitle(projectInfo.project)}<br />
 				
 ${badges}
 <br /><br />
