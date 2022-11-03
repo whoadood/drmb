@@ -7,7 +7,11 @@ export const title = gradient.pastel.multiline(
 );
 
 export function makeBadges(projectInfo: ProjectInfo) {
-  return `[![GitHub Stars](https://img.shields.io/github/stars/${projectInfo.account}/${projectInfo.project}.svg)](https://github.com/${projectInfo.account}/${projectInfo.project}/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/${projectInfo.account}/${projectInfo.project}.svg)](https://github.com/${projectInfo.account}/${projectInfo.project}/issues) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/${projectInfo.account}/${projectInfo.project}) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://${projectInfo.url})`;
+  const account = projectInfo.account.split(" ").join("%20");
+  const project = projectInfo.project.split(" ").join("%20");
+  return `[![GitHub Stars](https://img.shields.io/github/stars/${account}/${project}.svg)](https://github.com/${account}/${project}/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/${account}/${project}.svg)](https://github.com/${account}/${project}/issues) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/${account}/${project}) [![Live Demo](https://img.shields.io/badge/${project
+    .split(" ")
+    .join("%20")}.svg)](https://${projectInfo.url})`;
 }
 
 export function makeLicense(projectInfo: ProjectInfo, license: string) {
