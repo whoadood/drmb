@@ -52,7 +52,10 @@ Project Link: [drmb](https://github.com/${projectInfo.account}/${projectInfo.pro
 function makeBadges(projectInfo) {
     const account = projectInfo.account.split(" ").join("%20");
     const project = projectInfo.project.split(" ").join("%20");
-    return `<div align='center'>[![GitHub Stars](https://img.shields.io/github/stars/${account}/${project}.svg)](https://github.com/${account}/${project}/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/${account}/${project}.svg)](https://github.com/${account}/${project}/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/${account}/${project}) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://${projectInfo.url})</div>`;
+    return `
+<p align='center'>
+  [![GitHub Stars](https://img.shields.io/github/stars/${account}/${project}.svg)](https://github.com/${account}/${project}/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/${account}/${project}.svg)](https://github.com/${account}/${project}/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/${account}/${project}) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://${projectInfo.url})
+</p>`;
 }
 function makeLicense(projectInfo, license) {
     const account = projectInfo.account.split(" ").join("%20");
