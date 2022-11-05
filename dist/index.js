@@ -35,9 +35,7 @@ function makeTitle(projectInfo) {
   </p>
 </div>
 
-<div align="center">
-  ${makeBadges(projectInfo)}
-</div>
+${makeBadges(projectInfo)}
   `;
 }
 function makeFooter(projectInfo) {
