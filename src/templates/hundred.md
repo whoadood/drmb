@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+<!-- <a name="readme-top"></a>
 <br />
 
 <div align="center">
@@ -20,7 +20,7 @@
     ·
     <a href="https://github.com/whoadood/drmb/issues">Request Feature</a>
   </p>
-</div>
+</div> -->
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -168,19 +168,19 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- LICENSE -->
 
-## License
+<!-- ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE.txt` for more information. -->
 
 <!-- CONTACT -->
 
-## Contact
+<!-- ## Contact
 
 whoadood - [@whoa\_\_dood](https://twitter.com/whoa__dood)
 
 Project Link: [drmb](https://github.com/whoadood/drmb)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

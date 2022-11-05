@@ -1,5 +1,5 @@
 import { ProjectInfo } from "../types";
-import { makeBadges, makeLicense, makeCoffee } from "./consts";
+import { makeTitle, makeFooter, makeLicense, makeCoffee } from "./consts";
 import fs from "fs";
 import { fileURLToPath } from "url";
 import path from "path";
@@ -11,25 +11,24 @@ export async function createFileContent(
 ) {
   try {
     logger.info("creating readme content");
-    const badges = makeBadges(projectInfo);
-    const license = makeLicense(projectInfo, lcns);
+    const title = makeTitle(projectInfo);
     const coffee = makeCoffee(projectInfo);
+    const footer = makeFooter(projectInfo);
+    const license = makeLicense(projectInfo, lcns);
     const template = fs.readFileSync(
       path.resolve(
         decodeURI(fileURLToPath(import.meta.url)),
-        "../../src/templates/igorantun.md"
+        "../../src/templates/hundred.md"
       ),
       "utf8"
     );
     logger.success("content created");
 
-    return `# ${projectInfo.project}<br />
-				
-${badges}
-<br /><br />
-${projectInfo.description}
+    return `${title}
+
 ${coffee}
 ${template}
+${footer}
 ${license}
 `;
   } catch (err) {

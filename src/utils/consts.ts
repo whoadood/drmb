@@ -6,6 +6,50 @@ export const title = gradient.pastel.multiline(
   figlet.textSync("Dont Read Me Bro")
 );
 
+export function makeTitle(projectInfo: ProjectInfo) {
+  const account = projectInfo.account.split(" ").join("%20");
+  const project = projectInfo.project.split(" ").join("%20");
+  return `
+  <a name="readme-top" />
+  <br />
+
+  <div align="center">
+    <a href="https://github.com/${account}/${project}">
+      <img src="https://github.com/yiremorlans/rendervous/blob/main/public/imgs/render-icon.png" alt="rendervous logo" width="50" height="50">
+    </a>
+
+    <h2 align="center">${projectInfo.project}</h2>
+
+    <p align="center">
+      ${projectInfo.description}
+      <br />
+      <a href="https://github.com/${project}/${project}"><strong>Explore the docs »</strong></a>
+      <br />
+      <br />
+      <a href="https://www.npmjs.com/package/${project}">View Demo</a>
+      ·
+      <a href="https://github.com/${account}/${project}/issues">Report Bug</a>
+      ·
+      <a href="https://github.com/${account}/${project}/issues">Request Feature</a>
+    </p>
+  </div>
+
+  ${makeBadges(projectInfo)}
+  `;
+}
+
+export function makeFooter(projectInfo: ProjectInfo) {
+  return `
+## Contact
+
+${projectInfo.account} - [@${projectInfo.account}](https://twitter.com/${projectInfo.account})
+
+Project Link: [drmb](https://github.com/${projectInfo.account}/${projectInfo.project})
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  `;
+}
+
 export function makeBadges(projectInfo: ProjectInfo) {
   const account = projectInfo.account.split(" ").join("%20");
   const project = projectInfo.project.split(" ").join("%20");
@@ -13,10 +57,12 @@ export function makeBadges(projectInfo: ProjectInfo) {
 }
 
 export function makeLicense(projectInfo: ProjectInfo, license: string) {
+  const account = projectInfo.account.split(" ").join("%20");
+  const project = projectInfo.project.split(" ").join("%20");
   return `
 ## License
 
-> You can check out the full license [here](https://github.com/${projectInfo.account}/${projectInfo.project}/LICENSE)
+> You can check out the full license [here](https://github.com/${account}/${project}/LICENSE)
 
 This project is licensed under the terms of the **${license}** license.
 `;
