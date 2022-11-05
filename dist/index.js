@@ -24,7 +24,7 @@ function makeTitle(projectInfo) {
   <p align="center">
     ${projectInfo.description}
     <br />
-    <a href="https://github.com/${project}/${project}"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/${project}/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://www.npmjs.com/package/${project}">View Demo</a>
