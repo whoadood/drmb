@@ -1,4 +1,3 @@
-
 <a name="readme-top" />
 <br />
 
@@ -23,20 +22,14 @@
   </p>
 </div>
 
+[![GitHub Stars](https://img.shields.io/github/stars/whoadood/drmb.svg){: .center-image }](https://github.com/whoadood/drmb/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/whoadood/drmb.svg)](https://github.com/whoadood/drmb/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/whoadood/drmb) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://github.com/whoadood/drmb)
 
-<p align='center'>
-  [![GitHub Stars](https://img.shields.io/github/stars/whoadood/drmb.svg)](https://github.com/whoadood/drmb/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/whoadood/drmb.svg)](https://github.com/whoadood/drmb/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/whoadood/drmb) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://github.com/whoadood/drmb)
-</p>
-  
+## Buy me a coffee
 
+Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
 
-  
-  ## Buy me a coffee
+<a href="https://www.buymeacoffee.com/whoadood" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
-  Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
-  
-  <a href="https://www.buymeacoffee.com/whoadood" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-  
 <!-- <a name="readme-top"></a>
 <br />
 
@@ -254,7 +247,6 @@ Project Link: [drmb](https://github.com/whoadood/drmb)
 [jquery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [jquery-url]: https://jquery.com -->
 
-
 ## Contact
 
 whoadood - [@whoadood](https://twitter.com/whoadood)
@@ -262,11 +254,10 @@ whoadood - [@whoadood](https://twitter.com/whoadood)
 Project Link: [drmb](https://github.com/whoadood/drmb)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-  
+
 
 ## License
 
 > You can check out the full license [here](https://github.com/whoadood/drmb/LICENSE)
 
 This project is licensed under the terms of the **MIT** license.
-
