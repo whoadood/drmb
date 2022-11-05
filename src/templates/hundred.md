@@ -60,6 +60,7 @@ npm install npm@latest -g
 
 <!-- project usage guide -->
 
+- run command `npx drmb` from project root
 - enter github username
 - enter this project name
 - enter this project url

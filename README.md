@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://github.com/whoadood/drmb">
-    <img src="https://github.com/yiremorlans/rendervous/blob/main/public/imgs/render-icon.png" alt="rendervous logo" width="50" height="50">
+    <img src="https://user-images.githubusercontent.com/82413454/200122755-b2f370cb-2dc0-4e56-8a78-2c1f7096f666.png" alt="rendervous logo" width="50" height="50">
   </a>
 
   <strong>drmb</strong>
@@ -41,64 +41,9 @@
   
   <a href="https://www.buymeacoffee.com/whoadood" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
   
-<!-- <a name="readme-top"></a>
-<br />
-
-<div align="center">
-  <a href="https://github.com/whoadood/drmb">
-    <img src="https://github.com/yiremorlans/rendervous/blob/main/public/imgs/render-icon.png" alt="rendervous logo" width="50" height="50">
-  </a>
-
-  <h2 align="center">Dont Read Me Bro</h2>
-
-  <p align="center">
-    Simple elegant README.md files at the push of a button.
-    <br />
-    <a href="https://github.com/whoadood/drmb"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://www.npmjs.com/package/drmb">View Demo</a>
-    ·
-    <a href="https://github.com/whoadood/drmb/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/whoadood/drmb/issues">Request Feature</a>
-  </p>
-</div> -->
-
-<!-- TABLE OF CONTENTS -->
-<!-- <details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#optimizations">Optimizations</a></li>
-    <li><a href="#lessons-learned">Lessons Learned</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-
-  </ol>
-</details> -->
-
 ## About The Project
 
 <!-- project main image -->
-
-<!-- <div align="center">
-  <img src="https://github.com/yiremorlans/rendervous/blob/main/public/imgs/render-landing.png" alt="rendervous landing page" width="400px"/>
-</div> -->
 
 <br>
 <!-- project description here -->
@@ -154,11 +99,11 @@ npm install npm@latest -g
 
 <!-- project demo images -->
 
-<img src="https://github.com/yiremorlans/rendervous/blob/main/public/imgs/render-profile.png" alt="profile page" width="300px"/>
-<img src="https://github.com/yiremorlans/rendervous/blob/main/public/imgs/render-post.png" alt="create a post page" width="300px"/>
+![drmb-demo](https://user-images.githubusercontent.com/82413454/200122848-efb7ec04-694f-4e59-a7f2-70ee37a711eb.png)
 
 <!-- project usage guide -->
 
+- run command `npx drmb` from project root
 - enter github username
 - enter this project name
 - enter this project url
@@ -208,22 +153,6 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-<!-- LICENSE -->
-
-<!-- ## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information. -->
-
-<!-- CONTACT -->
-
-<!-- ## Contact
-
-whoadood - [@whoa\_\_dood](https://twitter.com/whoa__dood)
-
-Project Link: [drmb](https://github.com/whoadood/drmb)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
