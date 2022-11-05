@@ -34,7 +34,9 @@ export function makeTitle(projectInfo: ProjectInfo) {
   </p>
 </div>
 
+<div align="center">
   ${makeBadges(projectInfo)}
+</div>
   `;
 }
 
