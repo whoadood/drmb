@@ -1,27 +1,27 @@
 
-  <a name="readme-top" />
-  <br />
+<a name="readme-top" />
+<br />
 
-  <div align="center">
-    <a href="https://github.com/whoadood/drmb">
-      <img src="https://github.com/yiremorlans/rendervous/blob/main/public/imgs/render-icon.png" alt="rendervous logo" width="50" height="50">
-    </a>
+<div align="center">
+  <a href="https://github.com/whoadood/drmb">
+    <img src="https://github.com/yiremorlans/rendervous/blob/main/public/imgs/render-icon.png" alt="rendervous logo" width="50" height="50">
+  </a>
 
-    <h2 align="center">drmb</h2>
+  <h2 align="center">drmb</h2>
 
-    <p align="center">
-      simple elegant readme generator for the busy developer
-      <br />
-      <a href="https://github.com/drmb/drmb"><strong>Explore the docs »</strong></a>
-      <br />
-      <br />
-      <a href="https://www.npmjs.com/package/drmb">View Demo</a>
-      ·
-      <a href="https://github.com/whoadood/drmb/issues">Report Bug</a>
-      ·
-      <a href="https://github.com/whoadood/drmb/issues">Request Feature</a>
-    </p>
-  </div>
+  <p align="center">
+    simple elegant readme generator for the busy developer
+    <br />
+    <a href="https://github.com/drmb/drmb"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://www.npmjs.com/package/drmb">View Demo</a>
+    ·
+    <a href="https://github.com/whoadood/drmb/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/whoadood/drmb/issues">Request Feature</a>
+  </p>
+</div>
 
   [![GitHub Stars](https://img.shields.io/github/stars/whoadood/drmb.svg)](https://github.com/whoadood/drmb/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/whoadood/drmb.svg)](https://github.com/whoadood/drmb/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/whoadood/drmb) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://github.com/whoadood/drmb)
   

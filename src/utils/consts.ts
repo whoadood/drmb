@@ -10,29 +10,29 @@ export function makeTitle(projectInfo: ProjectInfo) {
   const account = projectInfo.account.split(" ").join("%20");
   const project = projectInfo.project.split(" ").join("%20");
   return `
-  <a name="readme-top" />
-  <br />
+<a name="readme-top" />
+<br />
 
-  <div align="center">
-    <a href="https://github.com/${account}/${project}">
-      <img src="https://github.com/yiremorlans/rendervous/blob/main/public/imgs/render-icon.png" alt="rendervous logo" width="50" height="50">
-    </a>
+<div align="center">
+  <a href="https://github.com/${account}/${project}">
+    <img src="https://github.com/yiremorlans/rendervous/blob/main/public/imgs/render-icon.png" alt="rendervous logo" width="50" height="50">
+  </a>
 
-    <h2 align="center">${projectInfo.project}</h2>
+  <h2 align="center">${projectInfo.project}</h2>
 
-    <p align="center">
-      ${projectInfo.description}
-      <br />
-      <a href="https://github.com/${project}/${project}"><strong>Explore the docs »</strong></a>
-      <br />
-      <br />
-      <a href="https://www.npmjs.com/package/${project}">View Demo</a>
-      ·
-      <a href="https://github.com/${account}/${project}/issues">Report Bug</a>
-      ·
-      <a href="https://github.com/${account}/${project}/issues">Request Feature</a>
-    </p>
-  </div>
+  <p align="center">
+    ${projectInfo.description}
+    <br />
+    <a href="https://github.com/${project}/${project}"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://www.npmjs.com/package/${project}">View Demo</a>
+    ·
+    <a href="https://github.com/${account}/${project}/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/${account}/${project}/issues">Request Feature</a>
+  </p>
+</div>
 
   ${makeBadges(projectInfo)}
   `;
