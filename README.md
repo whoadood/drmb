@@ -10,7 +10,7 @@
     <h2 align="center">drmb</h2>
 
     <p align="center">
-      Simple elegent README.md generator for the busy developer
+      simple elegant readme generator for the busy developer
       <br />
       <a href="https://github.com/drmb/drmb"><strong>Explore the docs »</strong></a>
       <br />
