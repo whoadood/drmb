@@ -24,11 +24,11 @@
 </div>
 
 
-<p align='center'>
+<div align="center">
 
   [![GitHub Stars](https://img.shields.io/github/stars/whoadood/drmb.svg)](https://github.com/whoadood/drmb/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/whoadood/drmb.svg)](https://github.com/whoadood/drmb/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/whoadood/drmb) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://github.com/whoadood/drmb)
 
-</p>
+</div>
   
 
 
