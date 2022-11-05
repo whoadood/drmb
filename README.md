@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://github.com/whoadood/drmb">
-    <img src="https://user-images.githubusercontent.com/82413454/200122755-b2f370cb-2dc0-4e56-8a78-2c1f7096f666.png" alt="rendervous logo" width="50" height="50">
+    <img src="https://user-images.githubusercontent.com/82413454/200122755-b2f370cb-2dc0-4e56-8a78-2c1f7096f666.png" alt="drmb logo">
   </a>
 
   <strong>drmb</strong>
@@ -48,7 +48,7 @@
 <br>
 <!-- project description here -->
 
-DRMB is a README generator for developers who want the hardwork put into their project reflected in the projects README. Engineering software at any scale is a lot of work, DRMB is aimed at aleviating some of the workload by offering an elegant, simple solution for project README files. Simply enter the project details an viola!
+DRMB is a README generator for developers who want the hard work put into their project reflected in the projects README. Engineering software at any scale is a lot of work, DRMB is aimed at alleviating some of the workload by offering an elegant, simple solution for project README files. Simply enter the project details an viola!
 
 ### Built With
 
@@ -121,7 +121,7 @@ npm install npm@latest -g
 - [ ] Add prompt for templates with preview links
 
 <!-- link to github issues -->
-<!-- See the [open issues](https://github.com/yiremorlans/rendervous/issues) for a full list of proposed features (and known issues). -->
+<!-- See the [open issues](https://github.com/[github-username]/[github-project-name]/issues) for a full list of proposed features (and known issues). -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,17 +129,15 @@ npm install npm@latest -g
 
 <!-- optimization plans -->
 
-Notifications for new comments left on user post is currently in developement, as well as notifications to new posts by friends will be implemented in the near future as well. Planned future optimizations include ongoing improvements to the user interface and navigation. Users will be able to add friends to their profile, which will allow them to view all the posts specific to their friends.
+While I think prompting users for full descriptions for sections of the readme seems a bit unwieldy for the command line, I do believe there is a happy medium not yet reached, prompting for more accurate details would be a nice to have.
+
+With multiple template options it would be good quality of life to have a set of prompts that work across all templates, however, I think it will have to be fleshed out with specific set of prompts for each template.
 
 ## Lessons Learned
 
 <!-- a few paragraphs about project learnings -->
 
-I knew I wanted to incorporate an MVC structure to maintain organization during development but also to allow future improvements and features to be implemented post-production of rendervous. New features can easily be worked into a new or exisiting model (thanks mongoose), followed by logic and data retrieval within the controllers to then routing and paths be configured accordingly.
-
-It was important to me to have a robust code base that would fascilitate incorporating new features, but also modularity so that the views could be swapped out to integrate a different front-end library, like React. TailwindCSS + DaisyUI combination offered components and additional UI support I had envisioned for a clean aesthetic and user friendly experience as part of rendervous' core features.
-
-A good portion involved using package libraries' respective documentation to troubleshoot issues encountered along the way, like method-override to send put requests through forms making rendervous a RESTful application.
+I have been dealing with imposter syndrome a lot lately and it was suggested to me to tinker around in node making command line interfaces. After revisiting how the event loop works, a lot of node documentation and a handful of tutorials I have made the first project that makes me feel like a programmer. Blocking / non-blocking, synchronous / asynchronus, call stack / queue, cant say that I know a whole lot more about them than I did, but there's definitely an improvement. 🤷
 
 ## Contributing
 
@@ -157,19 +155,18 @@ Don't forget to give the project a star! Thanks again!
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-<!-- [contributors-shield]: https://img.shields.io/github/contributors/yiremorlans/rendervous.svg?style=for-the-badge
-[contributors-url]: https://github.com/yiremorlans/rendervous/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/yiremorlans/rendervous.svg?style=for-the-badge
-[forks-url]: https://github.com/yiremorlans/rendervous/network/members
-[stars-shield]: https://img.shields.io/github/stars/yiremorlans/rendervous.svg?style=for-the-badge
-[stars-url]: https://github.com/yiremorlans/rendervous/stargazers
-[issues-shield]: https://img.shields.io/github/issues/yiremorlans/rendervous.svg?style=for-the-badge
-[issues-url]: https://github.com/yiremorlans/rendervous/issues
-[license-shield]: https://img.shields.io/github/license/yiremorlans/rendervous.svg?style=for-the-badge
-[license-url]: https://github.com/yiremorlans/rendervous/blob/master/LICENSE.txt
+<!-- [contributors-shield]: https://img.shields.io/github/contributors/[github-username]/[github-project-name].svg?style=for-the-badge
+[contributors-url]: https://github.com/[github-username]/[github-project-name]/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/[github-username]/[github-project-name].svg?style=for-the-badge
+[forks-url]: https://github.com/[github-username]/[github-project-name]/network/members
+[stars-shield]: https://img.shields.io/github/stars/[github-username]/[github-project-name].svg?style=for-the-badge
+[stars-url]: https://github.com/[github-username]/[github-project-name]/stargazers
+[issues-shield]: https://img.shields.io/github/issues/[github-username]/[github-project-name].svg?style=for-the-badge
+[issues-url]: https://github.com/[github-username]/[github-project-name]/issues
+[license-shield]: https://img.shields.io/github/license/[github-username]/[github-project-name].svg?style=for-the-badge
+[license-url]: https://github.com/[github-username]/[github-project-name]/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/yiremorlans
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://linkedin.com/in/[linkedin-username]
 [next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [next-url]: https://nextjs.org/
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB

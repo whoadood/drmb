@@ -15,7 +15,7 @@ export function makeTitle(projectInfo: ProjectInfo) {
 
 <div align="center">
   <a href="https://github.com/${account}/${project}">
-    <img src="https://user-images.githubusercontent.com/82413454/200122755-b2f370cb-2dc0-4e56-8a78-2c1f7096f666.png" alt="rendervous logo" width="50" height="50">
+    <img src="https://user-images.githubusercontent.com/82413454/200122755-b2f370cb-2dc0-4e56-8a78-2c1f7096f666.png" alt="drmb logo">
   </a>
 
   <strong>${projectInfo.project}</strong>
