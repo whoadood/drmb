@@ -1,5 +1,9 @@
 {
   "name": "drmb",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whoadood/drmb.git"
+  },
   "version": "1.0.1",
   "description": "cli readme generator",
   "main": "dist/index.js",
