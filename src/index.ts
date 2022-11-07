@@ -7,7 +7,7 @@ import { promptForProjectInfo } from "./utils/promptForProjectInfo";
 export async function cli() {
   console.log(title);
 
-  logger.info(`Easily generate a README.md beautiful for your project
+  logger.info(`Easily generate a beautiful README.md for your project
   `);
 
   const { projectInfo, license } = await promptForProjectInfo();
