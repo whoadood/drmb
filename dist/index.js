@@ -168,8 +168,7 @@ async function promptForProjectInfo() {
 
 async function cli() {
     console.log(title);
-    logger.info(`Easily generate a README.md beautiful for your project
-  `);
+    logger.info(`Easily generate a beautiful README.md for your project`);
     const { projectInfo, license } = await promptForProjectInfo();
     const content = await createFileContent(projectInfo, license);
     await createFile(content);
